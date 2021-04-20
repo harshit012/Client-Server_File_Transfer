@@ -1,12 +1,12 @@
 # Client-Server_File_downloader
-I've created a client and server in python. It is a basic pyhon application.
+This is a python based client-server application which allow users to download the files stored on the server. The server is multithreaded.
 
-Features:
-1) Server is multithreaded.
-2) Session tracking is done with the help of uuid.
-3) One file can be downloaded by 5 users at a time, by use of Semaphore.
-4) Works on TCP/IP protocol.
-5) Easy to use & faster downloading.
+## Features
+* Server is multithreaded.
+* The user has to provide his/her credentials to download files.
+* One file can be downloaded by maximum 5 users.
+* Works on TCP/IP protocol.
+* Easy to use & faster downloading.
 
 How To use:
 1) There is file named users in client folder, Which contains all the necessary information about users, you can add/edit/delete user according to specified format i.e. in tuple form. technically the details of all the users should be encrypted but this is basic application ,I did not do it.
