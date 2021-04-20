@@ -1,5 +1,5 @@
 # Client-Server_File_downloader
-This is a python based client-server application which allow users to download the files stored on the server. The server is multithreaded.
+This is a python based client-server application which allow users to download the files stored on the server. The server is multithreaded, So It can process multiple request simultaneously.
 
 ## Features
 * Server is multithreaded.
