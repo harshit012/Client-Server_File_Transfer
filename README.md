@@ -14,26 +14,21 @@ This is a basic TCP/IP based client-server network application which allow users
 
 ## How To use:
 
-### Step 1 
-Download zip file & extract it.
+**Step 1** : Download zip file & extract it.
 
-### Step 2
-Add some random files in server folder, The files can be audio,video,image etc. you can even add the files of size in TBs.
+**Step 2** : Add some random files in server folder, The files can be audio,video,image etc. you can even add the files of size in TBs.
 
 There is file named users in server folder, Which contains all the necessary information about the users, you can add/edit/delete user according to the specified format i.e. in the form of tuple. The details of all the users should be encrypted but this is basic application, so I have not done the encryption.
 
 
-### Step 3
-Run server.py , If you are windows user then firewall may ask for some permission. 
+**Step 3** : Run server.py , If you are windows user then firewall may ask for some permission. 
 
 Now the server is listening on port 5050. 
 
-### Step 4
-Run client.py
+**Step 4** : Run client.py
 Authentication is performed at client's end. you have to enter correct credential to proceed further.
 
-### Step 5
-After successful login, Type "dir" command and press enter. It will display all the information about the files at server end.
+**Step 5** : After successful login, Type "dir" command and press enter. It will display all the information about the files at server end.
 
 If you want to download a file, then type "get <filename>" 
 Download will begin soon , If more than 5 client are already downloading the same file, Then you have to wait until the anyone of the user five users have finished the downloading
