@@ -1,6 +1,8 @@
 # Client-Server_File_downloader
 This is a basic TCP/IP based client-server network application which allow users to download the files stored on the server. The server is multithreaded, So It can process multiple request simultaneously.
 
+The application will be useful if all the machines are connected to the same local network.
+
 ## Features
 * Server is multithreaded.
 * The user has to provide his/her credentials to download files.
