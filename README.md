@@ -15,7 +15,11 @@ This is a basic TCP/IP based client-server network application which allow users
 ## How To use:
 
 ### Step 1 
-Download client.py & server.py 
+Download zip file & extract it.
+
+### Step 2
+Copy some files in server in folder.
+
 1) There is file named users in client folder, Which contains all the necessary information about users, you can add/edit/delete user according to specified format i.e. in tuple form. technically the details of all the users should be encrypted but this is basic application ,I did not do it.
 2) Add some random files in server folder, the files can be audio,video,image etc. you can even add the file of size in TBs.
 3) Run server.py , If you are windows user then firewall asks for some permission. 
